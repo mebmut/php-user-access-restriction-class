@@ -1,0 +1,14 @@
+{
+    "Visitor": {
+        "denied" : [],
+        "allowed" : ["index","login","logout"]
+    },
+    "Admin": {
+        "denied" : [],
+        "allowed" : ["*"]
+    },
+    "LoggedIn": {
+        "denied" : ["admin","logout","login"],
+        "allowed" : ["*"]
+    }
+}
